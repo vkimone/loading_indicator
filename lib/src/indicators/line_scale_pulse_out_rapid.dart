@@ -61,7 +61,7 @@ class _LineScalePulseOutRapidState extends State<LineScalePulseOutRapid>
             animation: _animations[i ~/ 2],
             builder: (BuildContext context, Widget? child) {
               return FractionallySizedBox(
-                widthFactor: 0.5, // 수정부분 (추가)
+                widthFactor: 0.3, // 수정부분 (추가)
                 heightFactor: _animations[i ~/ 2].value,
                 child: IndicatorShapeWidget(
                   shape: Shape.line,
